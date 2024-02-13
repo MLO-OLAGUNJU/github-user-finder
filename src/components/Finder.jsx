@@ -5,7 +5,7 @@ import { SlSocialGithub } from "react-icons/sl";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { ImLink } from "react-icons/im";
-
+import { CgOrganisation } from "react-icons/cg";
 
 const Finder = () => {
   const user = false;
@@ -71,18 +71,13 @@ const Finder = () => {
               </div>
             </div>
 
-
-
-          <div>
             <div>
+              <div>
                 <span></span>
                 <span></span>
+              </div>
             </div>
           </div>
-          </div>
-
-
-
         </div>
       </main>
     </>
