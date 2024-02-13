@@ -1,8 +1,10 @@
 import React from "react";
 import { MdLightMode } from "react-icons/md";
 import { FaMagnifyingGlass } from "react-icons/fa6";
+import { SlSocialGithub } from "react-icons/sl";
 
 const Finder = () => {
+  const user = false;
   return (
     <>
       <main className="max-w-[50%] flex justify-center flex-col items-center mx-auto h-screen px-3">
@@ -29,7 +31,15 @@ const Finder = () => {
           </div>
         </nav>
 
-        <div className=" bg-[#1F2A48]"></div>
+        <div className=" bg-[#1F2A48] rounded-2xl grid grid-cols-2 w-full px-3 py-3">
+          <div className=" h-36 w-36">
+            {!user ? (
+              <SlSocialGithub className="w-full h-full" />
+            ) : (
+              <img src={user.img} alt="" className="w-full h-full" />
+            )}
+          </div>
+        </div>
       </main>
     </>
   );
