@@ -71,10 +71,22 @@ const Finder = () => {
               </div>
             </div>
 
-            <div>
-              <div>
-                <span></span>
-                <span></span>
+            <div className="flex flex-wrap items-center justify-between">
+              <div className="flex items-center justify-between w-[50%]">
+                <FaLocationDot />
+                <span>San Fracisco</span>
+              </div>
+              <div className="flex items-center justify-between w-[50%]">
+                <FaXTwitter />
+                <span>Not Available</span>
+              </div>
+              <div className="flex items-center justify-between w-[50%]">
+                <ImLink />
+                <span>www.pepperjs.com</span>
+              </div>
+              <div className="flex items-center justify-between w-[50%]">
+                <CgOrganisation />
+                <span>@github</span>
               </div>
             </div>
           </div>
