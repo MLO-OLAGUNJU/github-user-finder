@@ -6,14 +6,14 @@ const Finder = () => {
   return (
     <>
       <main className="max-w-[50%] flex justify-center flex-col items-center mx-auto h-screen px-3">
-        <nav className="flex justify-between items-center w-full my-4">
+        <nav className="flex justify-between items-center w-full my-1">
           <h1 className="text-3xl font-bold text-gray-80>">FindDev</h1>
           <div className="flex items-center justify-between gap-3 text-xl">
             <h1>Light</h1>
             <MdLightMode className="text-3xl" />
           </div>
         </nav>
-        <nav className="flex justify-between items-center w-full my-4 bg-[#1F2A48] px-10 py-4 shadow-lg rounded-2xl">
+        <nav className="flex justify-between items-center w-full my-4 bg-[#1F2A48] px-10 py-2 pr-3 shadow-lg rounded-2xl">
           <div className="flex items-center gap-4">
             <FaMagnifyingGlass className=" text-xl text-[#0079FE]" />
             <input
@@ -23,11 +23,13 @@ const Finder = () => {
             />
           </div>
           <div className="flex items-center justify-between gap-3 text-xl">
-            <button className="bg-[#0079FE] py-3 px-3 rounded-2xl">
+            <button className="bg-[#0079FE] py-2 px-3 rounded-2xl">
               Search
             </button>
           </div>
         </nav>
+
+        <div className=" bg-[#1F2A48]"></div>
       </main>
     </>
   );
