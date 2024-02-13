@@ -32,7 +32,7 @@ const Finder = () => {
         </nav>
 
         <div className=" bg-[#1F2A48] rounded-2xl flex items-center px-8 w-full gap-10 py-3">
-          <div className=" h-32 w-32 bg-slate-200 rounded-full p-4 text-[#1F2A48] col-span-1 flex justify-center items-center">
+          <div className=" h-28 w-28 bg-slate-200 rounded-full p-4 text-[#1F2A48] col-span-1 flex justify-center items-center">
             {!user ? (
               <SlSocialGithub className="w-full h-full" />
             ) : (
@@ -42,11 +42,12 @@ const Finder = () => {
 
           <div className="flex items-start flex-col justify-start">
             <div className="flex justify-between items-center w-full gap-20">
-              <h1 className=" font-bold text-xl">The Octotat</h1>
-              <p className=" text-slate-300 opacity-[0.5] text-sm">
+              <h1 className=" font-bold text-2xl">The Octotat</h1>
+              <p className=" text-slate-300 opacity-[0.8] text-sm">
                 Joined 25 Jan 2024
               </p>
             </div>
+            <p className="text-[#0079FE] opacity-[0.8]">@octotat</p>
           </div>
         </div>
       </main>
