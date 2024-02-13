@@ -2,6 +2,10 @@ import React from "react";
 import { MdLightMode } from "react-icons/md";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { SlSocialGithub } from "react-icons/sl";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { ImLink } from "react-icons/im";
+
 
 const Finder = () => {
   const user = false;
@@ -66,7 +70,19 @@ const Finder = () => {
                 <span>7600</span>
               </div>
             </div>
+
+
+
+          <div>
+            <div>
+                <span></span>
+                <span></span>
+            </div>
           </div>
+          </div>
+
+
+
         </div>
       </main>
     </>
