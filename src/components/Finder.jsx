@@ -15,7 +15,7 @@ const Finder = () => {
             <MdLightMode className="text-3xl" />
           </div>
         </nav>
-        <nav className="flex justify-between items-center w-full my-4 bg-[#1F2A48] px-10 py-2 pr-3 shadow-lg rounded-2xl">
+        <nav className="flex justify-between items-center w-full my-4 bg-[#1F2A48] px-10 py-10 pr-3 shadow-lg rounded-2xl">
           <div className="flex items-center gap-4">
             <FaMagnifyingGlass className=" text-xl text-[#0079FE]" />
             <input
@@ -31,13 +31,22 @@ const Finder = () => {
           </div>
         </nav>
 
-        <div className=" bg-[#1F2A48] rounded-2xl grid grid-cols-2 w-full px-3 py-3">
-          <div className=" h-36 w-36">
+        <div className=" bg-[#1F2A48] rounded-2xl flex items-center px-8 w-full gap-10 py-3">
+          <div className=" h-32 w-32 bg-slate-200 rounded-full p-4 text-[#1F2A48] col-span-1 flex justify-center items-center">
             {!user ? (
               <SlSocialGithub className="w-full h-full" />
             ) : (
               <img src={user.img} alt="" className="w-full h-full" />
             )}
+          </div>
+
+          <div className="flex items-start flex-col justify-start">
+            <div className="flex justify-between items-center w-full gap-20">
+              <h1 className=" font-bold text-xl">The Octotat</h1>
+              <p className=" text-slate-300 opacity-[0.5] text-sm">
+                Joined 25 Jan 2024
+              </p>
+            </div>
           </div>
         </div>
       </main>
