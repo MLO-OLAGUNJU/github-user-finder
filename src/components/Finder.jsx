@@ -31,7 +31,7 @@ const Finder = () => {
           </div>
         </nav>
 
-        <div className=" bg-[#1F2A48] rounded-2xl flex items-center px-8 w-full gap-10 py-3">
+        <div className=" bg-[#1F2A48] rounded-2xl flex items-start px-8 w-full gap-10 py-8">
           <div className=" h-28 w-28 bg-slate-200 rounded-full p-4 text-[#1F2A48] col-span-1 flex justify-center items-center">
             {!user ? (
               <SlSocialGithub className="w-full h-full" />
@@ -41,13 +41,31 @@ const Finder = () => {
           </div>
 
           <div className="flex items-start flex-col justify-start">
-            <div className="flex justify-between items-center w-full gap-20">
+            <div className="flex justify-between items-center w-[400px] ">
               <h1 className=" font-bold text-2xl">The Octotat</h1>
               <p className=" text-slate-300 opacity-[0.8] text-sm">
                 Joined 25 Jan 2024
               </p>
             </div>
             <p className="text-[#0079FE] opacity-[0.8]">@octotat</p>
+            <p className=" opacity-[0.8] text-sm mt-5 mb-5">
+              This Profile has no Bio
+            </p>
+
+            <div className="bg-[#141C2F] flex gap-14 items-center w-[400px] p-3 rounded-lg pl-7">
+              <div className="flex flex-col items-start justify-start">
+                <span>Repos</span>
+                <span>8</span>
+              </div>
+              <div className="flex flex-col items-start justify-start">
+                <span>Followers</span>
+                <span>8000</span>
+              </div>
+              <div className="flex flex-col items-start justify-start">
+                <span>Following</span>
+                <span>7600</span>
+              </div>
+            </div>
           </div>
         </div>
       </main>
