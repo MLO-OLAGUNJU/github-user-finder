@@ -23,7 +23,9 @@ const Finder = () => {
             />
           </div>
           <div className="flex items-center justify-between gap-3 text-xl">
-            <button className="bg-[#0079FE]">Search</button>
+            <button className="bg-[#0079FE] py-3 px-3 rounded-2xl">
+              Search
+            </button>
           </div>
         </nav>
       </main>
